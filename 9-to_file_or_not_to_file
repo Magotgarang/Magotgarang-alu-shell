@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+<<<<<<< HEAD
+
+# a Bash script that gives you information about the school life.
+
+
+=======
+# a Bash script that gives you information about the school life.
+>>>>>>> d400c577b6bd7de1ac3923f2c09cebe2beaf5f9a
+
+file="school"
+
+
+
+if [ -e "$file" ]; then
+<<<<<<< HEAD
+
+		echo "school file exists"
+
+			if [ ! -s "$file" ]; then
+
+					echo "school file is empty"
+
+						if [ -f "$file" ]; then
+
+								echo "school is a regular file"
+
+									fi
+
+								else
+
+										echo "school file is not empty"
+
+											if [ -f "$file" ]; then
+
+													echo "school is a regular file"
+
+														fi
+
+			fi
+
+		else
+
+				echo "school file does not exist"
+
+=======
+	echo "school file exists"
+	if [ ! -s "$file" ]; then
+	echo "school file is empty"
+	if [ -f "$file" ]; then
+	echo "school is a regular file"
+	fi
+else
+	echo "school file is not empty"
+	if [ -f "$file" ]; then
+	echo "school is a regular file"
+	fi
+fi
+else
+	echo "school file does not exist"
+>>>>>>> d400c577b6bd7de1ac3923f2c09cebe2beaf5f9a
+fi
