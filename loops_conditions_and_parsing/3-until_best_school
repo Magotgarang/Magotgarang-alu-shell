@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #Bash script that displays Best School 10 times until loop
-(( n=1))
+((n=1))
 until [ $n -gt 10 ]; do
-echo "Best School"
-echo "Best School"
-((n++))
+	echo "Best School"
+	((n++))
 done
