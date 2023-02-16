@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# This script displays
-# to infinity and beyond
+# This a bash script displays:
+
+# To infinity and beyond
 # With a sleep 2 in between ech iteration
-# I am invincible!!! when recieving a SIGTERM signal
+# I am invincible !!! when recieving a SIGTERM signal
 
 trap 'echo " I am invincible!!!"' 15
 while true; do
