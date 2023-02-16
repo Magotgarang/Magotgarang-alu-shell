@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
-# This a bash script displays:
+# a Bash script that displays:
 
-# To infinity and beyond
-# with a sleep 2 in between ech iteration
-# I am invincible !!! when recieving a SIGTERM signal
+To infinity and beyond indefinitely
+with a sleep 2 in between each iteration
+Iam invincible !!! when receiving a SIGTERM signal
 
-trap "echo I am invincible!!!"' 15
+trap "echo I am invincible!!!" SIGTERM
 
-while true; do
-echo "to infinity and beyond"
-sleep 2
+while true; do 
+	echo "To infinity and beyond"
+	sleep 2
 done
