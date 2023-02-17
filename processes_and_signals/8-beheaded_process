@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # This script kills the process 7-higherland
+./7-highlander is still running
 kill -9 "$(pgrep -f higherland)"
